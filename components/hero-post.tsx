@@ -33,7 +33,7 @@ const HeroPost = ({
               as={`/posts/${slug}`}
               href="/posts/[slug]"
               className="hover:underline"
-            >
+              legacyBehavior>
               {title}
             </Link>
           </h3>
@@ -47,7 +47,7 @@ const HeroPost = ({
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default HeroPost
